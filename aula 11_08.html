@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Masculino</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Feminino</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Outro</label><br>
+    </form>
+
+    <br><br><br><br><br>
+
+    <form>
+        <input type="checkbox" id="apple" name="fruits" value="apple">
+        <label for="apple">Maçã</label><br>
+        <input type="checkbox" id="banana" name="fruits" value="apple">
+        <label for="banana">Banana</label><br>
+        <input type="checkbox" id="orange" name="fruits" value="orange">
+        <label for="orange">Laranja</label><br>
+    </form>
+
+    <br><br><br><br><br>
+
+    <form>
+        <label for="fruits">Escolha uma Fruta:</label>
+        <select id="fruits" name="fruits">
+            <option value="" data-default disabled selected></option>
+            <option value="apple">Maçã</option>
+            <option value="banana">Banana</option>
+            <option value="orange">Laranja</option>
+        </select>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <br><br><br><br><br>
+
+    <table>
+        <tr>
+            <th style="text-align: right;">Dados Pessoais</th>
+        </tr>
+        <tr>
+            <td style="text-align: right;" size="40">Nome do Aluno:</td>
+            <td>
+                <input type="text">               
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">Nascimento (dd/mm/aaaa):</td>
+            <td>
+                <input type="text" size="2">/<input type="text" size="2">/<input type="text" size="4">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;" size="25">Nome da Mãe:</td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;" size="25">Nome do Pai:</td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">Telefone:</td>
+            <td>
+                DDD (<input type="text" size="2">) Tel:<input type="text" size="10"> Ramal:<input type="text" size="3">
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;" size="25">E-Mail:</td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+    
+    <table>
+        <tr>
+            <th>Informações de Matrícula:</th>
+        </tr>
+        <tr>
+            <td>
+                Série:
+            </td>
+            <td>
+                Turno:
+            </td>
+            <td>
+                Atividades Extracurriculares:
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="serie">
+                <select id="serie" name="serie">
+                    <option value="" data-default disabled selected></option>
+                    <option value="p1">Pré-escolar</option>
+                    <option value="a1">Primeira série</option>
+                    <option value="a2">Segunda série</option>
+                    <option value="a3">Terceira série</option>
+                    <option value="a4">Quarta série</option>
+                    <option value="a5">Quinta série</option>
+                    <option value="a6">Sexta série</option>
+                    <option value="a7">Sétima série</option>
+                    <option value="a8">Oitava série</option>
+                    <option value="c1">Ensino médio 1</option>
+                    <option value="c2">Ensino médio 2</option>
+                    <option value="c3">Ensino médio 3</option>
+                    <option value="s1">Ensino superior</option>
+                    <option value="pg">Pós-graduação</option>
+                </select>
+                </label>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
